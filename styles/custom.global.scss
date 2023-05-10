@@ -150,3 +150,12 @@ a {
   transform: translate(-0.5rem, -0.5rem);
   box-shadow: 2rem 2rem $primary;
 }
+
+
+.textleft {
+  text-align: left;
+}
+
+.bottomBorder {
+  border-bottom: calc(0.2px + 0.05em) solid #e5e5e5;
+}
