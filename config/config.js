@@ -7,12 +7,20 @@ export const navigation = {
 	name: "Karim",
 	links: [
 		{
-			title: "Projects",
-			link: "/projects",
+			title: "Exodus",
+			link: "/exodus",
 		},
 		{
-			title: "Links",
-			link: "/links",
+			title: "Billiards",
+			link: "/billiards",
+		},
+		{
+			title: "Solar System",
+			link: "/solar",
+		},
+		{
+			title: "Ray Tracing",
+			link: "/raytracing",
 		},
 	],
 }
@@ -62,15 +70,11 @@ export const projects = {
 	cards: [
 		{
 			title: "Exodus",
-			description: "A 2.5D dungeon crawler made in Unity for a university course, made in conjunction with 2 other team members.",
+			description: "A 2.5D fast-paced dungeon crawler made in Unity.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "/projects",
-				},
-				{
-					icon: faGithub,
-					link: "https://github.com/karimboshra/exodus",
+					link: "/exodus",
 				},
 			]
 		},
@@ -80,11 +84,27 @@ export const projects = {
 			icons: [
 				{
 					icon: faGithub,
-					link: "/projects",
+					link: "/billiards",
 				},
+			]
+		},
+		{
+			title: "Solar System",
+			description: "An OpenGL real time rendering project that renders a 3D solar system with orbiting planets and allows camera movement along the planets.",
+			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/karimboshra/billiards",
+					link: "/solar",
+				},
+			]
+		},
+		{
+			title: "Ray Tracing",
+			description: "",
+			icons: [
+				{
+					icon: faGithub,
+					link: "/raytracing",
 				},
 			]
 		},

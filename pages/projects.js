@@ -20,36 +20,30 @@ export default function Home() {
       />
       <div className="d-flex flex-column justify-content-between bg-secondary min-vh-100">
         <div className="py-5 px-5 container text-center">
-          <img className="" width="150" height="150" src={links.image} alt="profile of hashirshoaeb" />
-          <h3 className="mt-3">{links.title}</h3>
-          <p className="flex-start">{links.description}</p>
-          <p className='textleft bottomBorder'>This is a test2</p>
-          <img src={image.src} alt="Jean-Francois smoking a fat cogie" />
+		
+          <img className="" width="150" height="150" src={links.image} alt="Game Logo" />
+          <h3 className="mt-3">Game Title</h3>
+          <p className="flex-start">Game Description</p>
+		  
+          <h4 className='textleft bottomBorder'>SubHeading</h4>
+		  <p className='textleft'>Description</p>
+          <img src={image.src} alt="Unknown" />
+		  <p className='textleft'>Description</p>
+		  <p className='bottomBorder'> </p>
+		  <br></br><br></br>
+		  
+		  <h4 className='textleft bottomBorder'>SubHeading</h4>
+		  <p className='textleft'>Description</p>
           <video width="750" height="500" controls >
             <source src="/Videos/chunky.mp4" type="video/mp4" />
           </video>
+		  <p className='textleft'>Description</p>
+		  <p className='bottomBorder'> </p>
+		  <br></br><br></br>
+		  
         </div>
-        <div className="">
-          <p>Peni</p>
-        </div>
-        <Footer />
+        <Footer/>
       </div>
     </Fragment>
   );
 }
-
-
-function Button({ title, link }) {
-  return (
-    <div className="row justify-content-center">
-      <div className="card card-work mx-sm-4 my-2" style={{ width: "20rem" }}>
-        <Link href={link}>
-          <a target="_blank" rel="noreferrer">
-            <h4 className="text-primary py-3 px-3">{title}</h4>
-          </a>
-        </Link>
-      </div>
-    </div>
-  );
-}
-
